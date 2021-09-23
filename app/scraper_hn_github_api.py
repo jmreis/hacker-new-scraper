@@ -4,7 +4,7 @@
 
 import os
 import requests
-import pandas as pd
+#import pandas as pd
 from datetime import datetime
 
 # Clean the terminal
@@ -49,18 +49,20 @@ def scraper_api():
         articles.append(story_dict)
     return articles
 
-
+"""
 def create_dataframe():
-    """Creating a dataframe from data and storing
+    Creating a dataframe from data and storing
     
-    in .csv file."""
+    in .csv file.
     data = scraper_api()
     data_frame = pd.DataFrame(data)
     print(data_frame.head())
     data_frame.to_csv(f"hacker_news_github_api{datetime.now().strftime('%d_%m_%Y_%H:%M')}.csv")
-
+"""
 
 if __name__ == '__main__':
     scraper_header()
-    data = scraper_api()    
-    create_dataframe()
+    data = scraper_api()
+    for x in data:
+        print(x)   
+    #create_dataframe()

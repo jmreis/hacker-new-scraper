@@ -2,5 +2,5 @@ version: '3'
 services:
     scraper:
         build: ./app
-        volumes:
-            - ".:./data/"
+        #volumes:
+            #- ".:."
