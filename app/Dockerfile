@@ -12,4 +12,4 @@ WORKDIR /app
 COPY . /app
 RUN pip install -r /app/requirements.txt
 RUN apk del .build-dependencies && rm -rf /var/cache/apk/*
-CMD ["python", "scraper_hn.py"]
+CMD ["python", "scraper_hn_github_api.py"]
