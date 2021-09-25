@@ -62,7 +62,7 @@ def create_dataframe():
 
 if __name__ == '__main__':
     scraper_header()
-    data = scraper_api()
-    for x in data:
-        print(x)   
+    news = scraper_api()
+    for new in news:
+        print(new)   
     #create_dataframe()
