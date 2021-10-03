@@ -9,7 +9,7 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jmreis/hacker-new-scraper?style=for-the-badge)
 
 
-<img src="hacker-new-scraper.png">
+<img height="300" src="hacker-new-scraper.png" alt="hacker-new-scraper">
 
 
 > Implementando um script em python com a funcionalidade de buscar novas notícias sobre tecnologia. O site alvo é o https://news.ycombinator.com/news, no script é utilizado o módulo request do python 
