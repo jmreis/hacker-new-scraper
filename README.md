@@ -4,9 +4,9 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jmreis/hacker-new-scraper?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jmreis/hacker-new-scraper?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/jmreis/hacker-new-scraper?style=for-the-badge)
+<!--![GitHub forks](https://img.shields.io/github/forks/jmreis/hacker-new-scraper?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jmreis/hacker-new-scraper?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jmreis/hacker-new-scraper?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jmreis/hacker-new-scraper?style=for-the-badge)-->
 
 
 <img height="300" src="hacker-new-scraper.png" alt="hacker-new-scraper">
