@@ -33,7 +33,7 @@ Before starting, make sure you've met the following requirements:
 
 Para instalar , siga estas etapas:
 
-```
+```bash
 git clone https://github.com/jmreis/hacker-new-scraper.git
 
 ```
@@ -42,13 +42,13 @@ git clone https://github.com/jmreis/hacker-new-scraper.git
 
 Para usar, siga estas etapas:
 
-```
+```bash
 cd hacker-new-scraper
 
 docker-compose up --build
 ```
 
-## 📫 Contributing to <project_name>
+## 📫 Contributing
 <!---If your README is long or if you have any specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 To contribute, follow these steps:
 
