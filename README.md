@@ -1,6 +1,6 @@
 # hacker-news-scraper
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<!---These are examples. See https://shields.io for others or to customize this shield set. You might want to include dependencies, project status and license information here--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jmreis/hacker-new-scraper?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/jmreis/hacker-new-scraper?style=for-the-badge)
@@ -12,13 +12,13 @@
 ![project.gif](img/project.gif)
 
 
-> Implementando um script em python com a funcionalidade de buscar novas notícias sobre tecnologia. O site alvo é o https://news.ycombinator.com/news, no script é utilizado o módulo request do python 
-para fazer as requisições.
+> Implementing a python script with the functionality to search for new technology news. The target site is https://news.ycombinator.com/news, the python request module is used in the script
+to make requests.
 
 
 ## 💻 Skills
 
-![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![docker](https://camo.githubusercontent.com/63350538fde994bc287ccd4908809301e157980e6564bf78d2c5cec22c0a5914/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![docker](https://camo.githubusercontent.com/63350538fde994bc287ccd9908809301e157980e6564bf7c20 68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)
 
 
 ## 💻 Prerequisites
@@ -29,21 +29,21 @@ Before starting, make sure you've met the following requirements:
 * You have a `<Windows/Linux/Mac>` machine.
 
 
-## 🚀 Instalando hacker-new-scraper
+## 🚀 Installing hacker-new-scraper
 
-Para instalar , siga estas etapas:
+To install, follow these steps:
 
 ```bash
 git clone https://github.com/jmreis/hacker-new-scraper.git
 
 ```
 
-## ☕ Usando hacker-new-scraper
+## ☕ Using hacker-new-scraper
 
-Para usar, siga estas etapas:
+To use, follow these steps:
 
 ```bash
-cd hacker-new-scraper
+hacker-new-scraper cd
 
 docker-compose up --build
 ```
@@ -58,7 +58,7 @@ To contribute, follow these steps:
 4. Push to the original branch: `git push origin <project_name> / <local>`
 5. Create the pull request.
 
-Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request ).
+Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request ) .
 
 
 [⬆ Back to top](#hacker-news-scraper)<br>
