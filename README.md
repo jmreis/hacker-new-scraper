@@ -18,16 +18,16 @@ para fazer as requisições.
 
 ## 💻 Skills
 
-<code>
-<img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"/>
-<img height="60" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker"/>
-<code>
+## Skills
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![docker](https://camo.githubusercontent.com/63350538fde994bc287ccd4908809301e157980e6564bf78d2c5cec22c0a5914/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)
 
 
-## 💻 Pré-requisitos
+## 💻 Prerequisites
 
-* Docker
-* docker-compose
+Before starting, make sure you've met the following requirements:
+<!---These are example requirements only. Add, duplicate or remove as needed--->
+* You have installed [Python](https://www.python.org), Docker and docker-compose.
+* You have a `<Windows/Linux/Mac>` machine.
 
 
 ## 🚀 Instalando hacker-new-scraper
@@ -49,6 +49,18 @@ cd hacker-new-scraper
 docker-compose up --build
 ```
 
- 
-[⬆ Voltar ao topo](#hacker-new-scraper)<br>
+## 📫 Contributing to <project_name>
+<!---If your README is long or if you have any specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<message_commit>'`
+4. Push to the original branch: `git push origin <project_name> / <local>`
+5. Create the pull request.
+
+Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request ).
+
+
+[⬆ Back to top](#hacker-news-scraper)<br>
 
