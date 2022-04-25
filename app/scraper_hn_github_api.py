@@ -8,7 +8,8 @@ import logging
 import timeit
 #import pandas as pd
 import http.client
-from datetime import datetime
+#from datetime import datetime
+from alive_progress import alive_bar
 
 # Cleaning terminal
 os.system("clear")
@@ -57,16 +58,18 @@ def scraper_api():
     """Scraping the data from the api."""
     # For store the data
     articles = []
-    for story_id in top_stories:
-        # Setting url by id stories
-        story_url = url + f"/item/{story_id}.json"
-        # Printin url
-        logging.debug(f"Fetching: {story_url}")
-        # Getting data from id stories
-        req = requests.get(story_url)
-        story_dict = req.json()
-        # Storing data
-        articles.append(story_dict)
+    with alive_bar(len(top_stories), dual_line=True, title='Hacker-News-Scraper') as bar:
+        for story_id in top_stories:
+            # Setting url by id stories
+            story_url = url + f"/item/{story_id}.json"
+            # Printin url
+            logging.debug(f"Fetching: {story_url}")
+            # Getting data from id stories
+            req = requests.get(story_url)
+            story_dict = req.json()
+            # Storing data
+            articles.append(story_dict)
+            bar()
     return articles
 
 """
@@ -81,10 +84,12 @@ def create_dataframe():
 """
 
 if __name__ == '__main__':
-    httpclient_logging()
+    #httpclient_logging()
     scraper_header()
     news = scraper_api()
-    for new in news: 
-        logging.debug(new)   
+    with alive_bar(len(news), dual_line=True, title='Hacker-News-Scraper') as bar:
+        for new in news: 
+            logging.debug(new)
+            bar()   
     #create_dataframe()
     logging.debug(f'End time: {timeit.default_timer() - starttime}')
